@@ -43,9 +43,7 @@ vector<vector<pair<int,int>>> preprocessing(vector<vector<pair<int,int>>> &input
             else
             temp[i].push_back(input[i][j]);
         }
-        
-    }
-    
+    }    
     return temp;
 }
 
