@@ -23,7 +23,6 @@ int Maxbitrate(vector<vector<pair<int,int>>> &input,vector<vector<int>> &parent,
             }
         }
     }
-    
     return dp[n][P];
 }
 
