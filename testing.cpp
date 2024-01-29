@@ -46,7 +46,6 @@ vector<vector<pair<int,int>>> preprocessing(vector<vector<pair<int,int>>> &input
     }    
     return temp;
 }
-
 vector<pair<int,int>> allocate(vector<vector<int>> &parent,int P,int &n)
 {
     vector<pair<int,int>> distribution;
